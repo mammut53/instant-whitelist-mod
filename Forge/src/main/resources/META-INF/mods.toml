@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[38,)"
+license="MIT License"
+
+[[mods]]
+modId="instantwhitelist"
+version="${file.jarVersion}"
+displayName="Instant Whitelist"
+displayUrl="https://github.com/mammut53/instant-whitelist-mod"
+logoFile=""
+credits=""
+authors="mammut53"
+description='''
+Server-side mod which reloads the whitelist autonomously when the file is edited.
+'''
+
+[[dependencies.instantwhitelist]]
+    modId="forge"
+    mandatory=true
+    versionRange="[38,)"
+    ordering="NONE"
+    side="SERVER"
+
+[[dependencies.instantwhitelist]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18,1.19)"
+    ordering="NONE"
+    side="SERVER"

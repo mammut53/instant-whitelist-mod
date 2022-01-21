@@ -1,0 +1,34 @@
+{
+    "schemaVersion": 1,
+    "id": "instantwhitelist",
+    "version": "${version}",
+  
+    "name": "Instant Whitelist",
+    "description": "Server-side mod which reloads the whitelist autonomously when the file is edited.",
+    "authors": [
+      "mammut53"
+    ],
+    "contact": {
+      "sources": "https://github.com/mammut53/instant-whitelist-mod"
+    },
+  
+    "license": "MIT License",
+    "icon": "",
+  
+    "environment": "server",
+    "entrypoints": {
+      "main": [
+        "com.github.mammut53.instantwhitelist.InstantWhitelist"
+      ]
+    },
+    "mixins": [],
+  
+    "depends": {
+      "fabricloader": ">=0.12",
+      "fabric": "*",
+      "minecraft": "1.18.x",
+      "java": ">=17"
+    },
+    "suggests": {}
+  }
+  
